@@ -59,7 +59,7 @@ K: page reference string 길이 (1 ≤ K ≤ 1000, 0 ≤ page < N)<br>
 Fixed allocation을 사용하는 MIN, LRU, LFU algorithm의 경우 시간별 page, memory state, page fault 여부를 출력합니다. 출력 예시는 다음과 같습니다.
 ![2-1fixed](./img/2-1fixed.png)<br>
 2-2) Variable allocation based replacement
-Variable allocation을 사용하는 working set memory management의 경우 2-1)항목에 더해 들어온 페이지(Pws), 나간 페이지(Qws), 할당된 프레임 수(Frames)를 보여줍니다. 출력 예시는 다음과 같습니다.<br>
+Variable allocation을 사용하는 working set memory management의 경우 2-1항목에 더해 들어온 페이지(Pws), 나간 페이지(Qws), 할당된 프레임 수(Frames)를 보여줍니다. 출력 예시는 다음과 같습니다.
 ![2-2var](./img/2-2var.png)<br>
 ### d. simulator.c
 총 네 번의 시뮬레이션이 차례로 진행되며, Fixed allocation based replacement인 MIN, LRU, LFU algorithm 시뮬레이션 이후 Variable allocation based replacement인 WS algorithm이 시뮬레이션 됩니다. 각 시뮬레이션이 진행될 때 출력을 위하여 선언한 stateTable 배열이 시간별로 업데이트 됩니다.<br>
