@@ -87,5 +87,7 @@ Variable allocation을 사용하는 working set memory management의 경우 2-1�
 프로그램 실행 시 MIN, LRU, LFU, WS algorithm을 사용한 결과가 담긴 table이 출력됩니다. <br> 
 Fixed allocation based replacement인 MIN, LRU, LFU algorithm의 경우 Time, Page, memory상태, page fault여부가 출력되며, Fixed allocation based replacement WS algorithm의 경우 추가적으로 Pws(들어온 페이지), Qws(나간 페이지), Frames(할당된 페이지 개수)가 출력됩니다.
 ### b. 입출력 예시
+![입력](./img/입력0.png)<br>
+![출력](./img/출력0.png)<br>
 ![입력](./img/입력.png)<br>
 ![출력](./img/출력.png)<br>
